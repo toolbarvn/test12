@@ -43,8 +43,8 @@ jobs:
           Write-Host "`n============================"
           Write-Host "âœ… RDP Connected Successfully"
           Write-Host "IP Address (Tailscale): $env:TS_IP"
-          Write-Host "Username: $env: binicebear"
-          Write-Host "Password: $env:bin@9876"
+          Write-Host "Username: $env:RDP_USER"
+          Write-Host "Password: $env:RDP_PASS"
           Write-Host "============================`n"
 
       - name: Keep Alive
